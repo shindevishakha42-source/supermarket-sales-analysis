@@ -32,7 +32,7 @@ python analysis.py
 
 ## Use the assignment dataset
 
-The dashboard accepts a CSV upload in its sidebar. For the included command-line script and default dashboard data, replace `data/supermarket_sales.csv` with your real CSV. The expected headers are:
+The dashboard accepts a CSV upload in its sidebar. The bundled [500-row generated demo dataset](https://raw.githubusercontent.com/shindevishakha42-source/supermarket-sales-analysis/main/data/supermarket_sales.csv) is for demonstrating the workflow only; it is not the assignment source dataset. Replace `data/supermarket_sales.csv` with your real CSV before reporting findings. The expected headers are:
 
 `Product, Branch, City, Customer type, Quantity, Unit price, Payment, Rating`
 
@@ -62,3 +62,5 @@ After loading the real dataset, use the charts to identify best-selling products
 ## Limitations
 
 This is descriptive analysis. It does not establish causation, account for operating costs, or measure profit. Results depend on the completeness and definitions in the source data.
+
+
